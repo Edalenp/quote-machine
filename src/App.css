@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#quote-box {
+  width: 500px;
+  height: auto;
+  background-color: #191919;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#text-container {
+  display: flex;
+  justify-content: center;
+  font-size: 1.75em;
+}
+
+#quote-icon {
+  font-size: 2.5rem;
+  margin-right: 0.5em;
+}
+
+#text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#author {
+  font-size: 1.1rem;
+  text-align: end;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#twitter-icon {
+  font-size: 3rem;
+  color: #ffffff;
+}
