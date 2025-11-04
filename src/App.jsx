@@ -5,10 +5,7 @@ import { useData } from './hooks/useData'
 
 function App() {
   const { quote, author, getData } = useData()
-  const handleClick = () => {
-    getData()
-  }
-
+  const handleClick = () => getData()
   const tweetUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(`"${quote}" - ${author}`)}`
 
   return (
