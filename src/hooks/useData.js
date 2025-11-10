@@ -15,6 +15,7 @@ const useData = () => {
         setQuote(randomQuote.quote)
         setAuthor(randomQuote.author)
       })
+      .catch(error => console.log("Error fetching quote:", error))
   }
 
   useEffect(() => {

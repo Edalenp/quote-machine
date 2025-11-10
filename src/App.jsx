@@ -28,9 +28,16 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaSquareXTwitter id="twitter-icon" />
+            <FaSquareXTwitter
+              id="twitter-icon"
+              aria-label="Comment this in your X"
+            />
           </a>
-          <button onClick={handleClick} id="new-quote">
+          <button
+            onClick={handleClick}
+            id="new-quote"
+            aria-label="Get a new quote"
+          >
             New Quote
           </button>
         </div>
