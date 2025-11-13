@@ -1,5 +1,4 @@
 import "./App.css";
-import { FaQuoteLeft } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import useData from "./hooks/useData";
 
@@ -14,7 +13,6 @@ function App() {
     <div className="main-box">
       <div id="quote-box">
         <div id="text-container">
-          <FaQuoteLeft id="quote-icon" />
           <p id="text">{quote}</p>
         </div>
         <div id="author-container">
