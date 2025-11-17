@@ -19,7 +19,7 @@ const useData = () => {
       setAuthor(randomQuote.author);
 
     } catch (error) {
-      console.log("Error detected:", error)
+      console.error("Error detected:", error)
     }
   }
 
